@@ -1,0 +1,10 @@
+# Copia este archivo como servidor.properties y configura la conexion MariaDB.
+# MariaDB local suele usar el puerto 3306. En Docker con -p 3377:3306 usa 3377.
+bd.url=jdbc:mariadb://127.0.0.1:3306/asistencia
+bd.usuario=root
+bd.clave=
+
+# Solo equipo local. Para acceso externo, usa HTTPS y un proxy inverso seguro.
+servidor.host=127.0.0.1
+servidor.puerto=18190
+servidor.zona=America/Guayaquil

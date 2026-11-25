@@ -1,0 +1,6 @@
+servidor.properties
+out/
+*.log
+.env
+
+AsistenciaEstudiantilWeb.nuevo.jar

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101d3a">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <title>Ingeniería de Software | Matrícula y asistencia</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div id="auth" class="auth-shell">
+    <div class="auth-info"><p class="eyebrow">UNIVERSIDAD TÉCNICA DE AMBATO · FISEI</p><h1>Ingeniería de <em>Software</em></h1><p>Matrícula, horarios y asistencia con verificación facial.</p><p>Proyecto académico de demostración</p></div>
+    <div class="auth-form"><div class="login-card"><div class="mark">◈</div><h2 id="auth-title">Bienvenido</h2><p class="muted" id="auth-subtitle">Ingresa con tu correo institucional y contraseña.</p>
+      <form id="login-form"><label>Tipo de acceso<select id="login-type"><option value="ingresarEstudianteInstitucional">Estudiante</option><option value="ingresarDocenteInstitucional">Docente</option><option value="ingresarAdmin">Administración</option></select></label><label><span id="login-user-label">Correo institucional</span><input id="login-user" type="email" autocomplete="username" required placeholder="nombre@uta.edu.ec"></label><label>Contraseña<input id="login-password" type="password" autocomplete="current-password" required placeholder="Tu contraseña"></label><button class="primary wide" type="submit">Iniciar sesión</button></form>
+      <form id="register-form" hidden><label>Cédula<input id="reg-user" required maxlength="10" inputmode="numeric"></label><label>Nombres<input id="reg-name" required maxlength="120"></label><label>Apellidos<input id="reg-last" required maxlength="120"></label><label>Correo de contacto<input id="reg-email" type="email" maxlength="254"></label><label>Contraseña<input id="reg-pass" type="password" required minlength="8" maxlength="128"></label><button class="primary wide" type="submit">Crear cuenta</button></form>
+      <p class="auth-footer" id="switch-row">¿Eres estudiante nuevo? <button id="switch-register" class="link-btn" type="button">Crear cuenta</button></p><div id="auth-error" role="alert" class="error" hidden></div>
+    </div></div>
+  </div>
+  <div id="shell" class="shell" hidden>
+    <aside class="sidebar"><div class="side-brand">✦ <span>Asistencia<br><small>Estudiantil</small></span></div><p class="side-label">PANEL PRINCIPAL</p><nav id="nav" aria-label="Secciones"></nav><div class="side-bottom"><span class="online-dot"></span> Sistema académico <small>Versión web</small></div></aside>
+    <div class="workspace"><header class="topbar"><button id="mobile-menu" class="icon-btn" aria-label="Abrir menú">☰</button><div class="breadcrumb">Portal académico <span>/</span> <strong id="current-title">Inicio</strong></div><div class="user-chip"><span id="avatar">E</span><div><strong id="user-name">Usuario</strong><small id="user-role">Estudiante</small></div></div><button id="logout" class="outline small">Salir</button></header><main id="main" class="main" aria-live="polite"></main></div>
+  </div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <dialog id="modal"><div class="dialog-head"><h3 id="modal-title">Formulario</h3><button id="modal-close" class="icon-btn" aria-label="Cerrar">✕</button></div><div id="modal-body"></div></dialog>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="0"/>
+  </AuxValues>
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+      <Group type="102" attributes="0">
+        <EmptySpace pref="16" max="-2" attributes="0"/>
+        <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="lMateria" max="-2" attributes="0"/>
+              <EmptySpace pref="8" max="-2" attributes="0"/>
+              <Component id="materia" pref="250" max="-2" attributes="0"/>
+              <EmptySpace pref="8" max="-2" attributes="0"/>
+              <Component id="lParcial" max="-2" attributes="0"/>
+              <EmptySpace pref="8" max="-2" attributes="0"/>
+              <Component id="parcial" pref="220" max="-2" attributes="0"/>
+              <EmptySpace pref="8" max="-2" attributes="0"/>
+              <Component id="actualizar" pref="154" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Component id="totalLegalizadas" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Component id="tDetalle" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Component id="detalleScroll" pref="990" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Component id="foto" pref="154" max="-2" attributes="0"/>
+              <EmptySpace pref="8" max="-2" attributes="0"/>
+              <Component id="justificar" pref="154" max="-2" attributes="0"/>
+              <EmptySpace pref="8" max="-2" attributes="0"/>
+              <Component id="csvDetalle" pref="154" max="-2" attributes="0"/>
+              <EmptySpace pref="8" max="-2" attributes="0"/>
+              <Component id="csvResumen" pref="154" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Component id="tResumen" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Component id="resumenScroll" pref="990" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Component id="ayuda" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Component id="lPendientes" max="-2" attributes="0"/>
+          </Group>
+        </Group>
+        <EmptySpace pref="16" max="32767" attributes="0"/>
+      </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+      <Group type="102" attributes="0">
+        <EmptySpace pref="16" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="2" attributes="0">
+              <Component id="lMateria" pref="22" max="-2" attributes="0"/>
+              <Component id="materia" pref="34" max="-2" attributes="0"/>
+              <Component id="lParcial" pref="22" max="-2" attributes="0"/>
+              <Component id="parcial" pref="34" max="-2" attributes="0"/>
+              <Component id="actualizar" pref="34" max="-2" attributes="0"/>
+          </Group>
+          <EmptySpace pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="2" attributes="0">
+              <Component id="totalLegalizadas" pref="22" max="-2" attributes="0"/>
+          </Group>
+          <EmptySpace pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="2" attributes="0">
+              <Component id="tDetalle" pref="22" max="-2" attributes="0"/>
+          </Group>
+          <EmptySpace pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="2" attributes="0">
+              <Component id="detalleScroll" pref="180" max="32767" attributes="0"/>
+          </Group>
+          <EmptySpace pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="2" attributes="0">
+              <Component id="foto" pref="34" max="-2" attributes="0"/>
+              <Component id="justificar" pref="34" max="-2" attributes="0"/>
+              <Component id="csvDetalle" pref="34" max="-2" attributes="0"/>
+              <Component id="csvResumen" pref="34" max="-2" attributes="0"/>
+          </Group>
+          <EmptySpace pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="2" attributes="0">
+              <Component id="tResumen" pref="22" max="-2" attributes="0"/>
+          </Group>
+          <EmptySpace pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="2" attributes="0">
+              <Component id="resumenScroll" pref="140" max="32767" attributes="0"/>
+          </Group>
+          <EmptySpace pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="2" attributes="0">
+              <Component id="ayuda" pref="22" max="-2" attributes="0"/>
+          </Group>
+          <EmptySpace pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="2" attributes="0">
+              <Component id="lPendientes" pref="22" max="-2" attributes="0"/>
+          </Group>
+        <EmptySpace pref="16" max="32767" attributes="0"/>
+      </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lMateria">
+      <Properties><Property name="text" type="java.lang.String" value="Materia"/></Properties></Component>
+    <Component class="javax.swing.JComboBox" name="materia">
+      <AuxValues><AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Ui.Opcion&gt;"/></AuxValues></Component>
+    <Component class="javax.swing.JLabel" name="lParcial">
+      <Properties><Property name="text" type="java.lang.String" value="Parcial"/></Properties></Component>
+    <Component class="javax.swing.JComboBox" name="parcial">
+      <AuxValues><AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Ui.Opcion&gt;"/></AuxValues></Component>
+    <Component class="javax.swing.JButton" name="actualizar">
+      <Properties><Property name="text" type="java.lang.String" value="Actualizar"/></Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="actualizarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalLegalizadas">
+      <Properties><Property name="text" type="java.lang.String" value="Selecciona una materia para consultar el total de matrículas legalizadas."/></Properties></Component>
+    <Component class="javax.swing.JLabel" name="tDetalle">
+      <Properties><Property name="text" type="java.lang.String" value="Detalle de asistencia por clase y estudiante"/></Properties></Component>
+    <Container class="javax.swing.JScrollPane" name="detalleScroll">
+      <AuxValues><AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/></AuxValues>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents><Component class="javax.swing.JTable" name="detalle"></Component></SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="foto">
+      <Properties><Property name="text" type="java.lang.String" value="Ver foto de asistencia"/></Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fotoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="justificar">
+      <Properties><Property name="text" type="java.lang.String" value="Justificar falta"/></Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="justificarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="csvDetalle">
+      <Properties><Property name="text" type="java.lang.String" value="Exportar detalle"/></Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="csvDetalleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="csvResumen">
+      <Properties><Property name="text" type="java.lang.String" value="Exportar resumen"/></Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="csvResumenActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tResumen">
+      <Properties><Property name="text" type="java.lang.String" value="Resumen por estudiante del parcial seleccionado"/></Properties></Component>
+    <Container class="javax.swing.JScrollPane" name="resumenScroll">
+      <AuxValues><AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/></AuxValues>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents><Component class="javax.swing.JTable" name="resumen"></Component></SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="ayuda">
+      <Properties><Property name="text" type="java.lang.String" value="% = (a tiempo + atrasos) ÷ clases computadas × 100. Las faltas justificadas cuentan como faltas."/></Properties></Component>
+    <Component class="javax.swing.JLabel" name="lPendientes">
+      <Properties><Property name="text" type="java.lang.String" value="Pendientes: clases programadas o en curso sin marca. No cuentan en el porcentaje."/></Properties></Component>
+  </SubComponents>
+</Form>
